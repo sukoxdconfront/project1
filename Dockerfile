@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:22.04 as system
 
 RUN sudo apt update && sudo apt install tmate -y
 
